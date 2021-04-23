@@ -69,6 +69,10 @@ a:focus {
 	color: #ffffff;
 }
 
+#morelink:hover, #morelink:focus{
+	color: rgb(26, 194, 34);
+}
+
 ul,
 ol {
 	padding: 0;
@@ -379,13 +383,17 @@ ol {
 	justify-content: center;
 }
 
-.single__track {
+.single__track, .single__track1 {
 	background: rgba(35, 148, 7, 0.2);
 	padding: 12px 0;
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
+}
+
+.single__track1{
+	background: rgba(4, 17, 1, 0.2);
 }
 
 .single__track__item__pic {
